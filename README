@@ -1,9 +1,9 @@
-﻿MF_Picture_Manager is a Project that I try to Solve my image clasification problem.
+﻿MF_Picture_Manager is an incomplete image preview and folder classification program.
 
-It be used C++ and Qt4 framework demonstration.
+It uses C++ and Qt5 framework
 
 === Chinese Description ===
 
 大學時代自己用課餘時間寫的圖片預覽兼資料夾分類程式，目前未完成。
 
-使用C++及Qt4 framwork
+使用C++及Qt5 framework

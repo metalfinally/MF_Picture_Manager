@@ -1,10 +1,6 @@
-#include <QWidget>
-#include <QtGui>
-
 #include "dirView.h"
-#include <QCoreApplication>
 
-dirView::dirView(QWidget *parent, Qt::WFlags flags):QDockWidget(parent, flags)
+dirView::dirView(QWidget *parent, Qt::WindowFlags flags):QDockWidget(parent, flags)
 {
 
 	model = new QDirModel;

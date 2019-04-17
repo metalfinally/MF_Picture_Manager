@@ -1,17 +1,6 @@
 #include "Tabtest.h"
 #include "ImageViewer.h"
 #include "FileViewer.h"
-#include <QTabWidget>
-#include <QPushButton>
-#include <QLabel>
-#include <QtGui>
-#include <QTextStream>
-#include <QString>
-#include <QFileDialog>
-#include <QImage>
-#include <QMessageBox>
-#include <QDirModel>
-#include <QListView>
 
 Tabtest::Tabtest(QWidget *parent):QWidget(parent)
 {

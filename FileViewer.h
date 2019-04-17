@@ -1,9 +1,7 @@
 #ifndef FILEVIEWER_H
 #define FILEVIEWER_H
-#include <QWidget>
-#include <QDirModel>
-#include <QListView>
-#include <QVBoxLayout>
+
+#include <QtWidgets>
 
 class FileViewer : public QWidget
 {

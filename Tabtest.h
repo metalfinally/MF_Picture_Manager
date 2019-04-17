@@ -1,13 +1,7 @@
 #ifndef TABTEST_H
 #define TABTEST_H
-#include <QWidget>
-#include <QDirModel>
 
-class QTabWidget;
-class QPushButton;
-class QLabel;
-class QString;
-class QTextStream;
+#include <QtWidgets>
 
 class Tabtest:public QWidget
 {

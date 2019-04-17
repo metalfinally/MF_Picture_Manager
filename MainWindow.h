@@ -2,11 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "Tabtest.h"
-#include "dirView.h"
 
 class QAction;
 class QMenu;
+class QMainWindow;
+
+class Tabtest;
+class dirView;
 
 class MainWindow : public QMainWindow
 {

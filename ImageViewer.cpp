@@ -1,15 +1,3 @@
-#include <QtGui>
-#include <QWidget>
-#include <QLabel>
-#include <QScrollArea>
-#include <QScrollBar>
-#include <QString>
-#include <QPixmap>
-#include <QFileDialog>
-#include <QImage>
-#include <QPalette>
-#include <QSizePolicy>
-
 #include "ImageViewer.h"
 
 ImageViewer::ImageViewer(const QImage &image, QWidget *parent):QWidget(parent)
