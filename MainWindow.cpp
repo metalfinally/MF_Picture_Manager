@@ -1,5 +1,8 @@
-#include <QtGui>
+#include <QtWidgets>
+
 #include "MainWindow.h"
+#include "Tabtest.h"
+#include "dirView.h"
 
 MainWindow::MainWindow()
 {

@@ -1,16 +1,13 @@
 #ifndef DIRVIEW_H
 #define DIRVIEW_H
-#include <QWidget>
-#include <QDockWidget>
-#include <QDirModel>
-#include <QTreeView>
-#include <QtGui>
+
+#include <QtWidgets>
 
 class dirView : public QDockWidget{
 	Q_OBJECT
 
 public:
-	dirView(QWidget *parent=0, Qt::WFlags flags = 0);
+	dirView(QWidget *parent=0, Qt::WindowFlags flags = 0);
 	
 signals:
 	void fileClicked(const QModelIndex&, QDirModel*);
@@ -22,4 +19,5 @@ private:
 	QDirModel *model;
 	QTreeView *tree;
 };
+
 #endif

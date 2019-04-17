@@ -1,12 +1,15 @@
 #ifndef IMAGEVIEWER_H
 #define IMAGEVIEWER_H
-#include <QWidget>
 
+#include <QtWidgets>
+
+/*
 class QLabel;
 class QScrollArea;
 class QScrollBar;
 class QString;
 class QImage;
+*/
 
 class ImageViewer : public QWidget
 {
